@@ -1,0 +1,1 @@
+var floor = new Floor("myCanvas",15);floor.init();

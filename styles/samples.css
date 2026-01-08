@@ -1,0 +1,17 @@
+summary {
+  cursor: pointer;
+  color: var(--secondary-dark);
+  margin-top: 1rem;
+  font-size: x-large;
+}
+
+blockquote span {
+  color: red;
+  font-weight: bolder;
+}
+
+@media (prefers-color-scheme: dark){
+  summary {
+    color: var(--secondary-light);
+  }
+}

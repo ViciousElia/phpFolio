@@ -1,0 +1,62 @@
+{
+    "last_updated": "2026-01-07 23:28:57",
+    "count": 7,
+    "tools": {
+        "cavey": {
+            "slug": "cavey",
+            "name": "Cave Generator",
+            "summary": "",
+            "icon": "\/content\/code\/images\/1337CaveSmall.png",
+            "file_path": "content\/code\/cavey.md",
+            "last_modified": 1767827822
+        },
+        "diggerMap": {
+            "slug": "diggerMap",
+            "name": "Digger Dungeon",
+            "summary": "",
+            "icon": "\/content\/code\/images\/diggerMapSmol.png",
+            "file_path": "content\/code\/diggerMap.md",
+            "last_modified": 1767823820
+        },
+        "dsisland": {
+            "slug": "dsisland",
+            "name": "Island Generator",
+            "summary": "",
+            "icon": "\/content\/code\/images\/smoothIslandGen.png",
+            "file_path": "content\/code\/dsisland.md",
+            "last_modified": 1767828470
+        },
+        "graphy": {
+            "slug": "graphy",
+            "name": "Graph Optimiser",
+            "summary": "A tool for optimising graphs under constraints of separation and connectedness.",
+            "icon": "\/content\/code\/images\/26RandomSmol.png",
+            "file_path": "content\/code\/graphy.md",
+            "last_modified": 1767815920
+        },
+        "graphy3D": {
+            "slug": "graphy3D",
+            "name": "Graph Optimiser 3D",
+            "summary": "A tool for optimising graphs in 3D under constraints of separation and connectedness while under gravitation.",
+            "icon": "\/content\/code\/images\/75TreeSmol.png",
+            "file_path": "content\/code\/graphy3D.md",
+            "last_modified": 1767818218
+        },
+        "keys": {
+            "slug": "keys",
+            "name": "Synth Piano",
+            "summary": "A tool for exploring various waveforms (approximated with Fourier Analysis) and various musical temperaments, presented as a single octave on a keyboard.",
+            "icon": "\/content\/code\/images\/12keysSmol.png",
+            "file_path": "content\/code\/keys.md",
+            "last_modified": 1767819409
+        },
+        "randomiser": {
+            "slug": "randomiser",
+            "name": "Character Randomiser",
+            "summary": "",
+            "icon": "\/content\/code\/images\/dice.svg",
+            "file_path": "content\/code\/randomiser.md",
+            "last_modified": 1767820985
+        }
+    }
+}

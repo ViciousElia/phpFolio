@@ -1,0 +1,381 @@
+\documentclass[a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{supertabular}
+\usepackage{pdflscape}
+\usepackage{makecell}
+
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{1em}
+
+\setlength\voffset{-1in}
+\setlength\hoffset{-1in}
+\setlength\topmargin{1.27cm}
+\setlength\oddsidemargin{1.27cm}
+\setlength\textheight{27.16cm}
+\setlength\textwidth{18.46cm}
+\setlength\footskip{0.0cm}
+\setlength\headheight{0cm}
+\setlength\headsep{0cm}
+
+\title{Docs Requests Templates}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\section*{Rationale}
+\subsection*{Overview}
+Due to the volume of requests for DevDocs (both feedback and updates), future requests need to be structured in such a way that they may be actioned efficiently. This will be best affected by providing enough information to establish the purpose, extent, and complexity of the request.
+
+In order to best provide context for these templates, they have been broken down into two main types: Docs Requests and API Requests.
+
+\textbf{Note:} Any formatting applied to a template is acceptable. I've provided a List structure and a Table structure for each request in this document.
+
+\subsection*{Docs Requests}
+Generally, Docs Requests relate to the descriptive and/or opinionated content contained in the Developer Center. This explicitly includes Getting Started guides, Best Practices, Topic Overviews, and similar documentation. Meanwhile, it explicitly excludes API Specifications, Code Documentation (see the readme on the Buyer Portal repository for an example), or other technical documentation that states flatly how the platform works and not necessarily how it should be used.
+
+\subsubsection*{Request Requirements}
+In order to effectively manage Docs Requests, the following information is necessary, and explanations for why are provided below.
+\begin{itemize}
+	\item \textbf{Topic:} What is the major topic being covered? API Best Practices, for example requires a different approach compared to Getting Started.
+	\item \textbf{User Impact:} What is the scale of the end-user impact? Larger end-user impacts often require more time to complete the request.
+	\item \textbf{Scope:} How much information will need to be updated in order to communicate the update properly? The larger the requested change, the longer the process to update.
+	\item \textbf{Point of Contact:} Who is/are the major shareholders in the request? This may be excluded if the requestor is the point of contact.
+	\item \textbf{Current Doc:} If it exists, knowing the current doc, public and github, will speed up our work dramatically. For net new docs, this isn't required, but a suggested navigation menu spot (ideally with a screenshot) would be appreciated.
+	\item \textbf{Component:} Does this affect Products, Taxes, Customers, GraphQL, et c. Specificity helps us identify the team(s) who would be best pulled for SME review. It also improves our response time, as different components are powered by different APIs and codebases (think Storefront versus Server-to-Server operations, for example).
+	\item \textbf{Type: (New Doc or Update)}
+	\begin{itemize}
+		\item \textbf{Update}
+		\begin{itemize}
+			\item \textbf{Where it is:} The location, either as an anchored link or as a description.
+			\item \textbf{What it says:} The current version that needs to be updated.
+			\item \textbf{What it should say:} The version that should be present.
+			\item \textbf{Rationale:} An explanation of why the current version is incorrect.
+		\end{itemize}
+		\item \textbf{New Doc}
+		\begin{itemize}
+			\item \textbf{Purpose:} What information should the new doc be written to communicate? Providing this information helps us identify the best team members to work through discovery and drafting while also allowing us to determine whether it should be descriptive or opinionated in approach.
+			\item \textbf{Key points:} What are the major topics that need to be highlighted in the new doc? Without this information, the drafting stage will take much longer as we identify the best approach to covering the topic.
+			\item \textbf{Related functions/features:} What parts of the platform are connected to the doc being requested? Knowing this helps us highlight processes and steps that may be involved in whatever the doc is communicating.
+			\item \textbf{Use Cases:} If a doc is covering a major feature or a function of the platform, providing use cases for the content also serves to provide extended rationale for writing the doc.
+			\item \textbf{Description:} A description of the doc to be written. If the above is provided in thorough detail, this may be excluded. Remember: more information is better.
+		\end{itemize}
+	\end{itemize}
+	\item \textbf{References:} Relevant links in our own documentation or communications that explain the request. These support the necessity of the update, but also serve as a starting point for discovery and drafting.
+	\item \textbf{Other Resources:} Any external links to provide context to both new and experienced developers who may be interested in further reading.
+\end{itemize}
+
+\subsection*{API Requests}
+Generally, API Requests relate to the descriptive and technical content explicitly connected with our APIs, regardless of the component affected. In github, these will be connected to a {\ttfamily .yml} or {\ttfamily .yaml} file, which is a Swagger formatted OpenAPI specification. The content required depends on the scope of the request, specifically whether it is for new endpoints or updates to existing endpoints or their data.
+
+\subsubsection*{New Endpoint Requirements}
+In order to effectively create documentation for new endpoints, the following information is necessary, and an explanation for why is provided below.
+\begin{itemize}
+	\item \textbf{Path:} 
+	\item \textbf{Method:} 
+	\item \textbf{Summary:} 
+	\item \textbf{Operation ID:} 
+	\item \textbf{Has Body:} 
+	\item \textbf{Expected Responses:} 
+	\item \textbf{Parameters:} 
+	\item \textbf{Request and Response Bodies:}
+	\item \textbf{Description:} 
+\end{itemize}
+
+These are the minimum requirements to write effective documentation of an endpoint, generally. Without this information, documentation cannot be created. If it already exists, this information may be substituted for a Swagger formatted OpenAPI specification in either {\ttfamily JSON} or {\ttfamily YAML}.
+
+\subsubsection*{Updated Endpoint Requirements}
+Updates to existing endpoints should include the following information.
+\begin{itemize}
+	\item \textbf{Path:} 
+	\item \textbf{Method:} 
+	\item \textbf{Requested Changes:} 
+\end{itemize}
+If requested changes are extensive, it is more efficient and effective to use the New Endpoint structure. If the update may be communicated via code snippets, the template may be substituted for Swagger formatted OpenAPI specifications in either {\ttfamily JSON} or {\ttfamily YAML} in the format of:
+\begin{itemize}
+	\item \textbf{Path:} 
+	\item \textbf{Method:} 
+	\item \textbf{What it says:} 
+	\item \textbf{What it should be:} 
+	\item \textbf{Rationale:} 
+\end{itemize}
+
+\subsubsection*{Field and Parameter Requests}
+For new fields or parameters, specific information is necessary to fully document them, while some information is optional. Optional fields are marked below. Remember that more information is better in this area.
+\begin{itemize}
+	\item \textbf{Path:} 
+	\item \textbf{Method:} [OPTIONAL. If excluded, will be assumed as ``all'']
+	\item \textbf{Request / Response:} [specifically, is this field in the request or a response. If a response, provide the code]
+	\item \textbf{Field / Parameter Name:} 
+	\item \textbf{Type:} {integer}, {\ttfamily number}, {\ttfamily string}, {\ttfamily array}, {\ttfamily object}, {\ttfamily boolean}, {\ttfamily enumeration}
+	\item \textbf{Example:} [OPTIONAL]
+	\item \textbf{Required:} 
+	\item \textbf{Location:} [For parameters, this is {\ttfamily query}, {\ttfamily path}, {\ttfamily header}, or similar. For fields, this may be used for a parent object or parent array.]
+	\item \textbf{Other Info:} [OPTIONAL]
+	\item \textbf{Description:} 
+\end{itemize}
+This template may be substituted for a Swagger formatted OpenAPI specification in either {\ttfamily JSON} or {\ttfamily YAML}.
+
+\clearpage
+
+\section*{Expectations}
+Documentation requests related to developer guides or other non-specification developer references should include the following, at minimum:
+\begin{itemize}
+	\item End-user impact
+	\item Page(s) affected
+	\item Approximate size of ask
+	\begin{itemize}
+		\item Net New (full new doc outlining information)
+		\item New Information (new document section)
+		\item Large Update (document overhaul)
+		\item Medium Update (section overhaul)
+		\item Minor Update (simple correction)
+		\begin{itemize}
+			\item Minor updates should include ``What it says'' and ``What it \textbf{should} say'' to speed up the process.
+		\end{itemize}
+	\end{itemize}
+	\item Outline of the information needed
+	\begin{itemize}
+		\item Can be as simple as, for example
+		\begin{itemize}
+			\item Overview of the topic
+			\item What API features are available to support
+			\item Basic outlines of use cases
+		\end{itemize}
+		\item The more detailed this is, the better the outcome
+		\item The more complex this is, the slower the request will be fulfilled
+	\end{itemize}
+	\item Expected timeline
+	\begin{itemize}
+		\item 4 to 6 weeks lead is required for Major Update and Net New
+		\item 2 to 4 weeks lead is required for Medium Update and New Information
+	\end{itemize}
+	\item Reference resources for content accuracy
+\end{itemize}
+
+Net New requests should also contain the following information:
+\begin{itemize}
+	\item Primary project contact (for support and clarification)
+	\item SME for review
+\end{itemize}
+
+Documentation requests related to net new APIs / endpoints should include the following, at minimum:
+\begin{itemize}
+	\item End-user impact
+	\item Page(s) affected
+	\item Endpoint(s) affected
+	\begin{itemize}
+		\item Path(s)
+		\item Method(s)
+		\begin{itemize}
+			\item Parameter(s)
+			\begin{itemize}
+				\item Name(s)
+				\item Type(s)
+				\item Location(s) [path, query, et c]
+				\item Description
+			\end{itemize}
+			\item Body Fields
+			\begin{itemize}
+				\item Name(s)
+				\item Type(s) [and associated properties for objects and arrays]
+				\item Description(s)
+			\end{itemize}
+			\item Expected Responses
+			\begin{itemize}
+				\item Code(s)
+				\item Description(s)
+				\item Response Body Fields [see above for details]
+			\end{itemize}
+			\item Examples for particularly odd cases
+		\end{itemize}
+	\end{itemize}
+	\item Important call-outs for end-users [if applicable]
+\end{itemize}
+
+Updates to specific endpoints should include the following, as applicable:
+\begin{itemize}
+	\item Page(s) affected
+	\item Endpoint(s) affected
+	\begin{itemize}
+		\item Changes to be made
+		\begin{itemize}
+			\item Restrictions may be given as e.g. ``minValue = 7''
+			\item Call limits may be given as e.g. ``Maximum concurrent requests = 10''
+			\item Call-outs may be given as e.g. ``Note that the endpoint has a body even though that's abnormal''
+			\item Corrections may be given as e.g. ``Doc currently says `there are seven datatypes'. Doc should say `there are six datatypes'.''
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+Ideally this information should be present in a ticket description or a ticket tab.
+
+\clearpage
+
+\section*{Templates}
+\subsection*{Table Template, Doc Request}
+
+\begin{flushleft}
+	\tablefirsthead{}
+	\tablehead{}
+	\tabletail{}
+	\tablelasttail{}
+\begin{supertabular}{|m{3cm}|m{5cm}m{3cm}m{5cm}|}
+	\hline
+	\multicolumn{4}{|m{16cm}|}{\centering Topic Information}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Topic} &
+	\multicolumn{1}{m{5cm}|}{~
+	} &
+	\multicolumn{1}{m{3cm}|}{\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Scope}} &
+	{\centering Small (sentence)\newline
+	Medium (paragraph)\newline
+	Large (Full Doc)\newline
+	Net New} \\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Component} &
+	\multicolumn{1}{m{5cm}|}{~
+	} &
+	\multicolumn{1}{m{3cm}|}{\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} User Impact}} &
+	{\centering Low (minor change)\newline
+	Mid (major change)\newline
+	High (new feature)}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Type} &
+	\multicolumn{1}{m{5cm}|}{\centering Update / Net New} &
+	\multicolumn{1}{m{3cm}|}{\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Public Doc}} &
+	~
+	\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Github File} &
+	\multicolumn{1}{m{5cm}|}{~
+	} &
+	\multicolumn{1}{m{3cm}|}{\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Point of Contact}} &
+	~
+	\\\hline
+	\multicolumn{4}{|m{16cm}|}{\centering Content Information}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Purpose} &
+	\multicolumn{3}{m{13cm}|}{~
+	}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Key Points} &
+	\multicolumn{3}{m{13cm}|}{~
+	}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Description} &
+	\multicolumn{3}{m{13cm}|}{~
+	}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Use Cases} &
+	\multicolumn{3}{m{13cm}|}{~
+	}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} What it Says} &
+	\multicolumn{3}{m{13cm}|}{~
+	}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} What it Should Say} &
+	\multicolumn{3}{m{13cm}|}{~
+	}\\\hline
+	\multicolumn{4}{|m{16cm}|}{\centering Support Data}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} References} &
+	\multicolumn{3}{m{13cm}|}{~
+	}\\\hline
+	\centering{\color[rgb]{0.2627451,0.2627451,0.2627451} Other Resources} &
+	\multicolumn{3}{m{13cm}|}{~
+	}\\\hline
+\end{supertabular}
+\end{flushleft}
+	
+
+\clearpage
+
+\subsection*{List Template, Doc Request}
+\begin{itemize}
+	\item \textbf{Topic:}
+	\item \textbf{User Impact:}
+	\item \textbf{Scope:}
+	\item \textbf{Point of Contact:}
+	\item \textbf{Current Doc:}
+	\item \textbf{Component:}
+	\item \textbf{Type:}
+	\begin{itemize}
+		\item \textbf{New Doc}
+		\begin{itemize}
+			\item \textbf{Purpose:}
+			\item \textbf{Key points:}
+			\item \textbf{Related functions/features:}
+			\item \textbf{Use Cases:}
+			\item \textbf{Description:}
+		\end{itemize}
+		\item \textbf{Update}
+		\begin{itemize}
+			\item \textbf{What it says:}
+			\item \textbf{What it should say:}
+			\item \textbf{Rationale:}
+		\end{itemize}
+	\end{itemize}
+	\item \textbf{References:}
+	\item \textbf{Other Resources:}
+\end{itemize}
+
+Provide as much information as possible. Missing information will result in delayed completion.
+
+\clearpage
+\begin{landscape}
+\subsection*{Table Template, API Request}
+For new endpoints and endpoint updates, provide the following information:
+\begin{flushleft}
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+	\hline
+	\textbf{Path} & \textbf{Method} & \textbf{Summary} & \textbf{Operation ID} & \textbf{Has Body} & \textbf{Expected Responses} & \textbf{Parameters} & \textbf{Description}\\\hline
+	~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+	~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+	~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+	~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+\end{tabular}
+\end{flushleft}
+
+For new or updated fields and parameters, provide the following information:
+
+\begin{flushleft}
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
+	\hline
+	\textbf{Path} & \textbf{Method} & \textbf{Body of} & \textbf{Name} & \textbf{Type} & \textbf{Example} & \textbf{Required} & \textbf{Location} & \textbf{Other Info} & \textbf{Description}\\\hline
+	/examples & GET & 200 & exampleId & integer & 123456 & no & ~ & ~ & The ID for the specific example\\\hline
+	/examples & POST & Request & exampleName & string & {}``ex123'' & yes & ~ & ~ & The name of the example\\\hline
+	~ & ~ & ~ & exampleValue & varies & [``7'',``5''] & yes & ~ & May take any data type & \makecell{The value of the example.\\ Allows any datatype.}\\\hline
+	~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+	~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+	~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+	~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+\end{tabular}
+\end{flushleft}
+\end{landscape}
+
+\clearpage
+
+\subsection*{List Template, API Request}
+\subsubsection*{Requests for endpoints. New or Update.}
+\begin{itemize}
+	\item \textbf{Path:} 
+	\item \textbf{Method:} 
+	\item \textbf{Summary:} 
+	\item \textbf{Operation ID:} 
+	\item \textbf{Has Body:} 
+	\item \textbf{Expected Responses:} 
+	\item \textbf{Parameters:} 
+	\item \textbf{Request and Response Bodies:} 
+	\item \textbf{Description:} 
+	\item \textbf{Requested Changes:} 
+\end{itemize}
+\subsubsection*{Requests for fields or parameters.}
+\begin{itemize}
+	\item \textbf{Path:} 
+	\item \textbf{Method:} 
+	\item \textbf{Request / Response:} 
+	\item \textbf{Field / Parameter Name:} 
+	\item \textbf{Type:} 
+	\item \textbf{Example:} 
+	\item \textbf{Required:} 
+	\item \textbf{Location:} 
+	\item \textbf{Other Info:} 
+	\item \textbf{Description:} 
+\end{itemize}
+
+If a field is an object or an array, provide details about the properties within it as well.
+
+If a field is multi-type, either provide the types in Other Info, or provide separate definitions for the separate types.
+\end{document}

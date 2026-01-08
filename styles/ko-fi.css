@@ -1,0 +1,39 @@
+div.banner {
+  background: var(--primary-colour);
+  border: 1px solid var(--primary-dark);
+  border-radius: 6px;
+  margin: 2rem auto;
+  text-align: center;
+  transition: all 0.5s ease;
+  box-shadow: -0.5rem 0 1rem var(--primary-dark) inset;
+  width: 60%;
+}
+
+div.banner a {
+  color: var(--primary-text);
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+div.banner:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: -0.5rem 0 1rem var(--theme-darker) inset;
+}
+
+div.banner span {
+  display: block;
+  line-height: 1.3;
+}
+
+div.banner span:first-child {
+  font-size: 0.9em;
+  opacity: 0.9;
+}
+
+div.banner span:last-child {
+  font-size: 1em;
+  font-weight: 600;
+}

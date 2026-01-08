@@ -1,0 +1,546 @@
+{
+    "last_updated": "2026-01-06 23:34:42",
+    "count": 35,
+    "quickies": {
+        "2013-07-29": {
+            "id": "2013-07-29",
+            "title": "Things unsaid",
+            "summary": "A not insubstantial piece in poetic form about how the things we hide are hidden because we know exactly what to expect.",
+            "file_path": "content\/quickies\/2013-07-29.md",
+            "last_modified": 1766296875,
+            "tags": [
+                "queer",
+                "pride",
+                "fb-rants",
+                "transgender",
+                "discomfort",
+                "dysphoria",
+                "poem",
+                "frustration",
+                "fear"
+            ]
+        },
+        "2018-02-11": {
+            "id": "2018-02-11",
+            "title": "It Feels Kinda Like ...",
+            "summary": "In this one, I discuss some fairly common uncomfortable experiences and how they relate to a different uncomfortable experience.",
+            "file_path": "content\/quickies\/2018-02-11.md",
+            "last_modified": 1766297172,
+            "tags": [
+                "queer",
+                "pride",
+                "sapphic",
+                "fb-rants",
+                "compilation",
+                "transgender",
+                "analogy",
+                "discomfort",
+                "dysphoria"
+            ]
+        },
+        "2019-02-23": {
+            "id": "2019-02-23",
+            "title": "Gatekeeping and Trans Care",
+            "summary": "A short one about the difficulties faced in getting healthcare as a trans person as well as in other areas of life as a way to inform those without direct experience.",
+            "file_path": "content\/quickies\/2019-02-23.md",
+            "last_modified": 1766297694,
+            "tags": [
+                "queer",
+                "fb-rants",
+                "compilation",
+                "transgender",
+                "analogy",
+                "discomfort",
+                "dysphoria",
+                "doctors",
+                "transition",
+                "gatekeeping"
+            ]
+        },
+        "2019-04-07": {
+            "id": "2019-04-07",
+            "title": "Three Lists",
+            "summary": "A short exploration of a common trend in gaming and in social settings. Don't read the tags.",
+            "file_path": "content\/quickies\/2019-04-07.md",
+            "last_modified": 1766298264,
+            "tags": [
+                "video-games",
+                "gender",
+                "choices",
+                "hidden-intent",
+                "fb-rants",
+                "extra-long",
+                "transgender"
+            ]
+        },
+        "2019-06-18": {
+            "id": "2019-06-18",
+            "title": "Pride Month 2019",
+            "summary": "The collection of activist\/educational posts made during Pride 2019. Edited for clarity and change of format.",
+            "file_path": "content\/quickies\/2019-06-18.md",
+            "last_modified": 1766298545,
+            "tags": [
+                "queer",
+                "pride",
+                "june-thoughts",
+                "sapphic",
+                "fb-rants",
+                "extra-long",
+                "compilation"
+            ]
+        },
+        "2019-06-25": {
+            "id": "2019-06-25",
+            "title": "Pain. So much pain.",
+            "summary": "Two separate pieces I've combined here for simplicity. They cover my experience with neurological pain I've never really had a way to fix.",
+            "file_path": "content\/quickies\/2019-06-25.md",
+            "last_modified": 1766300885,
+            "tags": [
+                "pain",
+                "neurology",
+                "allodynia",
+                "hair",
+                "fb-rants"
+            ]
+        },
+        "2020-01-07": {
+            "id": "2020-01-07",
+            "title": "Maybe Trans?",
+            "summary": "If you've ever thought you might be trans, this one is for you. And if that is the case, then PLEASE hit me up if you need to talk.",
+            "file_path": "content\/quickies\/2020-01-07.md",
+            "last_modified": 1766333098,
+            "tags": [
+                "queer",
+                "transgender",
+                "fb-rants",
+                "add-some-nuance",
+                "questioning"
+            ]
+        },
+        "2020-01-22": {
+            "id": "2020-01-22",
+            "title": "Deadlock Symphony",
+            "summary": "A short piece that tells a story about frustration, fear, and feeling trapped. Inspired by a song that resonated a little too well.",
+            "file_path": "content\/quickies\/2020-01-22.md",
+            "last_modified": 1766333287,
+            "tags": [
+                "loop",
+                "trapped",
+                "first-person",
+                "existential",
+                "horror",
+                "dreamscape",
+                "fiction"
+            ]
+        },
+        "2020-06-30": {
+            "id": "2020-06-30",
+            "title": "Pride Month 2020 (Queer Wrath)",
+            "summary": "The collection of activist\/educational posts made during Pride 2020. Edited for clarity and change of format.",
+            "file_path": "content\/quickies\/2020-06-30.md",
+            "last_modified": 1766333439,
+            "tags": [
+                "queer",
+                "pride",
+                "wrath",
+                "june-thoughts",
+                "sapphic",
+                "fb-rants",
+                "extra-long"
+            ]
+        },
+        "2020-07-28": {
+            "id": "2020-07-28",
+            "title": "Artemis: A Prologue",
+            "summary": "A free writing idea I had while I spent a lot of time by myself. It tells of a daughter who defies, and a mother who perpetuates the cycle.",
+            "file_path": "content\/quickies\/2020-07-28.md",
+            "last_modified": 1766333770,
+            "tags": [
+                "artemis",
+                "nemesis",
+                "gaea",
+                "princess",
+                "sapphic",
+                "romance",
+                "daughters-rage",
+                "tragedy",
+                "fiction"
+            ]
+        },
+        "2020-12-23": {
+            "id": "2020-12-23",
+            "title": "A Talk on Executive Dysfunction",
+            "summary": "A short piece about my experience with executive dysfunction and how it impacts my day to day.",
+            "file_path": "content\/quickies\/2020-12-23.md",
+            "last_modified": 1766333982,
+            "tags": [
+                "autism",
+                "adhd",
+                "executive-dysfunction",
+                "fb-rants"
+            ]
+        },
+        "2021-06-18": {
+            "id": "2021-06-18",
+            "title": "Pride Month 2021",
+            "summary": "The collection of activist\/educational posts made during Pride 2021. Edited for clarity and change of format.",
+            "file_path": "content\/quickies\/2021-06-18.md",
+            "last_modified": 1766358040,
+            "tags": [
+                "queer",
+                "pride",
+                "june-thoughts",
+                "sapphic",
+                "fb-rants",
+                "extra-long",
+                "compilation"
+            ]
+        },
+        "2021-12-14": {
+            "id": "2021-12-14",
+            "title": "To Educate Patiently",
+            "summary": "A true story from my job at a Totally Real Company, wherein I chose to be calm and patient when teaching someone something new.",
+            "file_path": "content\/quickies\/2021-12-14.md",
+            "last_modified": 1766358175,
+            "tags": [
+                "sapphic",
+                "queer",
+                "educator",
+                "patience",
+                "fb-rants",
+                "gender",
+                "transgender"
+            ]
+        },
+        "2021-12-30": {
+            "id": "2021-12-30",
+            "title": "I Used To, Anyway.",
+            "summary": "A short piece written when I was once in love, mostly with the idea of a person. That person eventually broke my heart. Truthfully, it happened twice.",
+            "file_path": "content\/quickies\/2021-12-30.md",
+            "last_modified": 1766358863,
+            "tags": [
+                "love",
+                "struggle",
+                "loss",
+                "bittersweet",
+                "hope",
+                "fool"
+            ]
+        },
+        "2022-06-04": {
+            "id": "2022-06-04",
+            "title": "Pride Month 2022",
+            "summary": "The collection of activist\/educational posts made during Pride 2022. Edited for clarity and change of format.",
+            "file_path": "content\/quickies\/2022-06-04.md",
+            "last_modified": 1766359160,
+            "tags": [
+                "queer",
+                "pride",
+                "june-thoughts",
+                "sapphic",
+                "fb-rants",
+                "extra-long",
+                "compilation"
+            ]
+        },
+        "2023-03-31": {
+            "id": "2023-03-31",
+            "title": "Trans Day of Visibility",
+            "summary": "A short piece written to share a bit about Trans Day of Visibility and what it means.",
+            "file_path": "content\/quickies\/2023-03-31.md",
+            "last_modified": 1766416523,
+            "tags": [
+                "queer",
+                "pride",
+                "june-thoughts",
+                "transgender",
+                "fb-rants",
+                "extra-long",
+                "compilation",
+                "visibility"
+            ]
+        },
+        "2023-05-09": {
+            "id": "2023-05-09",
+            "title": "Peanut Butter Silliness",
+            "summary": "A short story about how much Katie loves me, how much I love peanut butter, and how those two things affect each other.",
+            "file_path": "content\/quickies\/2023-05-09.md",
+            "last_modified": 1766416641,
+            "tags": [
+                "peanut-butter",
+                "moving-states",
+                "laughter",
+                "love",
+                "fb-rants",
+                "joy"
+            ]
+        },
+        "2023-11-16": {
+            "id": "2023-11-16",
+            "title": "A Talk on Gender and Sexuality",
+            "summary": "A short piece about how gender and sexuality are complex things, and how it's beneficial to think of them as being separatebut possibly interconnected parts of ourselves.",
+            "file_path": "content\/quickies\/2023-11-16.md",
+            "last_modified": 1766421372,
+            "tags": [
+                "gender",
+                "sexuality",
+                "sapphic",
+                "fb-rants",
+                "why-are-you"
+            ]
+        },
+        "2024-01-07": {
+            "id": "2024-01-07",
+            "title": "My Stance on \"ai\" \"art\"",
+            "summary": "With the rise of machine generated content, it's important to make it clear where we stand on the subject, since the world is increasingly scary for some of us.",
+            "file_path": "content\/quickies\/2024-01-07.md",
+            "last_modified": 1766421712,
+            "tags": [
+                "machine-learning",
+                "generative-tools",
+                "art",
+                "ethical-coding",
+                "fake-ai",
+                "large-language-models",
+                "fb-rants"
+            ]
+        },
+        "2024-02-05": {
+            "id": "2024-02-05",
+            "title": "Fran ... the Neurotypical",
+            "summary": "A short tale about Fran the Neurotypical, who works as a corporate slave whose life is as joyless as any.",
+            "file_path": "content\/quickies\/2024-02-05.md",
+            "last_modified": 1766421768,
+            "tags": [
+                "capitalism",
+                "neurotypical",
+                "fran",
+                "the-grind",
+                "horror",
+                "comedy",
+                "surreal",
+                "fiction"
+            ]
+        },
+        "2024-02-12": {
+            "id": "2024-02-12",
+            "title": "The Grinder",
+            "summary": "A short tale about Fran on an atypical day at her entirely too typical job in her entirely too typical office.",
+            "file_path": "content\/quickies\/2024-02-12.md",
+            "last_modified": 1766417094,
+            "tags": [
+                "capitalism",
+                "neurotypical",
+                "fran",
+                "the-grind",
+                "stress",
+                "corporate-life",
+                "comedy",
+                "fiction"
+            ]
+        },
+        "2024-02-19": {
+            "id": "2024-02-19",
+            "title": "Playing with Fire",
+            "summary": "A true story within a true story about fire, lasers, and burnt hair. Or something like that.",
+            "file_path": "content\/quickies\/2024-02-19.md",
+            "last_modified": 1766417300,
+            "tags": [
+                "transgender",
+                "country-kid",
+                "fire",
+                "burnt-hair",
+                "hair-removal",
+                "Tatum-TX"
+            ]
+        },
+        "2024-04-27": {
+            "id": "2024-04-27",
+            "title": "Not Like Other Girls",
+            "summary": "A short tale about Fran in the aftermath of a typical 'I didn't know this was a date' scenario through which she has lived too many times.",
+            "file_path": "content\/quickies\/2024-04-27.md",
+            "last_modified": 1766421392,
+            "tags": [
+                "fran",
+                "fiction",
+                "demisexual",
+                "queer",
+                "dot",
+                "coffee-shop",
+                "sapphic",
+                "neurodivergent"
+            ]
+        },
+        "2024-05-28": {
+            "id": "2024-05-28",
+            "title": "The Unexpected Friend (NSFW)",
+            "summary": "A story written in response to a hilarious moment. It's a fun time, for sure.",
+            "file_path": "content\/quickies\/2024-05-28.md",
+            "last_modified": 1766417997,
+            "tags": [
+                "sapphic",
+                "queer",
+                "romance",
+                "fiction",
+                "comedy",
+                "patience",
+                "strap-on",
+                "rayne",
+                "alice",
+                "nsfw"
+            ]
+        },
+        "2024-06-08": {
+            "id": "2024-06-08",
+            "title": "An Opening without a Tale",
+            "summary": "A lady of culture finds herself waxing nostalgic about a time that was, and in doing so reminds herself of what she has lost.",
+            "file_path": "content\/quickies\/2024-06-08.md",
+            "last_modified": 1766417993,
+            "tags": [
+                "fiction",
+                "hollow-life",
+                "semi-historic",
+                "sensory",
+                "introduction",
+                "morning"
+            ]
+        },
+        "2024-06-11": {
+            "id": "2024-06-11",
+            "title": "Only Fools ...",
+            "summary": "A mid-length monologue about the notions of eternal punishment and everlasting reward, which itself comments on the silliness of it all.",
+            "file_path": "content\/quickies\/2024-06-11.md",
+            "last_modified": 1766421499,
+            "tags": [
+                "heaven",
+                "hell",
+                "eternity",
+                "death",
+                "creation",
+                "comedy",
+                "philosophy",
+                "musings",
+                "existential"
+            ]
+        },
+        "2024-07-28": {
+            "id": "2024-07-28",
+            "title": "There is no War",
+            "summary": "A play on the Ba Sing Se arc of Avatar: The Last Airbender, this piece is yet again an opening without a story. I may write more when I feel it is worth it.",
+            "file_path": "content\/quickies\/2024-07-28.md",
+            "last_modified": 1766417983,
+            "tags": [
+                "Lilium",
+                "fiction",
+                "introduction",
+                "post-fall",
+                "propaganda",
+                "evergreen-hope"
+            ]
+        },
+        "2024-08-07": {
+            "id": "2024-08-07",
+            "title": "Her Mother's Son",
+            "summary": "A brief piece about the impact of perspective in the face of a dysphoria that will never quite go away.",
+            "file_path": "content\/quickies\/2024-08-07.md",
+            "last_modified": 1766421466,
+            "tags": [
+                "gender",
+                "dysphoria",
+                "transgender",
+                "queer"
+            ]
+        },
+        "2024-08-10": {
+            "id": "2024-08-10",
+            "title": "The Expanse",
+            "summary": "A poem about feeling tiny and infinite at the same time, while actively recognising the value of those feelings.",
+            "file_path": "content\/quickies\/2024-08-10.md",
+            "last_modified": 1766421543,
+            "tags": [
+                "capitalism",
+                "choices",
+                "creation",
+                "existential",
+                "hope",
+                "companion",
+                "poem"
+            ]
+        },
+        "2024-08-12": {
+            "id": "2024-08-12",
+            "title": "The Triviality",
+            "summary": "The prose companion of The Expanse. A plea to an unnamed soul that they understand just how valuable they are.",
+            "file_path": "content\/quickies\/2024-08-12.md",
+            "last_modified": 1766421567,
+            "tags": [
+                "choices",
+                "creation",
+                "existential",
+                "hope",
+                "companion"
+            ]
+        },
+        "2024-08-13": {
+            "id": "2024-08-13",
+            "title": "Destined (maybe)",
+            "summary": "A love poem from a Fruit to a Birb, expressing a measure of wonder and awe at the fortune of loving and being loved.",
+            "file_path": "content\/quickies\/2024-08-13.md",
+            "last_modified": 1766421586,
+            "tags": [
+                "love",
+                "joy",
+                "hope",
+                "sapphic",
+                "poem"
+            ]
+        },
+        "2024-09-11": {
+            "id": "2024-09-11",
+            "title": "Cows. Just Cows.",
+            "summary": "In which I relate a formative anecdote from my youth that deeply enhanced my respect for nature.",
+            "file_path": "content\/quickies\/2024-09-11.md",
+            "last_modified": 1766421047,
+            "tags": [
+                "country-kid",
+                "tomas",
+                "Tatum-TX"
+            ]
+        },
+        "2024-09-15": {
+            "id": "2024-09-15",
+            "title": "Something Trite",
+            "summary": "A short monologue about something trite. Something trite about society.",
+            "file_path": "content\/quickies\/2024-09-15.md",
+            "last_modified": 1766421605,
+            "tags": [
+                "society",
+                "capitalism"
+            ]
+        },
+        "2024-10-10": {
+            "id": "2024-10-10",
+            "title": "Twilit Fantasy",
+            "summary": "A love poem about the feeling of safety in the failing light when you're with the one you love.",
+            "file_path": "content\/quickies\/2024-10-10.md",
+            "last_modified": 1765581564,
+            "tags": [
+                "love",
+                "joy",
+                "sapphic",
+                "poem"
+            ]
+        },
+        "2024-12-30": {
+            "id": "2024-12-30",
+            "title": "Food (a little too deep)",
+            "summary": "A ... thing ... that I think about sometimes. It definitely speaks to my relationship with food.",
+            "file_path": "content\/quickies\/2024-12-30.md",
+            "last_modified": 1767722252,
+            "tags": [
+                "poem",
+                "food"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.flex-table li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    & .icon {
+        border-radius: 50%;
+        overflow: hidden;
+        aspect-ratio: 1;
+        flex: 1 1 25%;
+        height:fit-content;
+        box-shadow: 0.25rem 0.25rem 0.5rem #7f7f7f;
+        margin: 0.5rem;
+        & img {
+            width: 100%;
+        }
+    }
+    & .text {
+        flex: 1 1 70%;
+    }
+}
+

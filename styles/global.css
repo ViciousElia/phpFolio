@@ -1,0 +1,64 @@
+:root {
+  --primary-colour: #005a32;
+  --secondary-colour: #0064b4;
+  --primary-dark: color-mix(in srgb, var(--primary-colour) 50%, black);
+  --primary-light: color-mix(in srgb, var(--primary-colour) 50%, white);
+  --secondary-dark: color-mix(in srgb, var(--secondary-colour) 50%, black);
+  --secondary-light: color-mix(in srgb, var(--secondary-colour) 50%, white);
+
+  --theme-light: #ddd;
+  --theme-lighter: #eee;
+  --theme-dark: #222;
+  --theme-darker: #111;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 400px;
+  background-color: var(--theme-light);
+  color: var(--theme-dark);
+  text-align: justify;
+}
+header {
+  position: sticky;
+  top:0;
+  background-color: var(--primary-colour);
+  display: flex;
+}
+main {
+  margin: 0 1rem;
+  flex: 1;
+  & a {
+    color: var(--secondary-dark);
+    &:visited{
+      color: var(--secondary-dark);
+    }
+    &:hover{
+      color: var(--primary-dark);
+    }
+  }
+}
+footer {
+  margin-top: auto;
+}
+
+@media (prefers-color-scheme: dark){
+  body {
+    background-color: var(--theme-dark);
+    color: var(--theme-light);
+  }
+  main {
+    margin: 0 1rem;
+    & a {
+      color: var(--secondary-light);
+      &:visited{
+        color: var(--secondary-light);
+      }
+      &:hover{
+        color: var(--primary-light);
+      }
+    }
+  }
+}

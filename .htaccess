@@ -1,0 +1,43 @@
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType text/js "access plus 1 year"
+ExpiresByType text/javascript "access plus 1 year"
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresDefault "access plus 7 days"
+
+RewriteEngine On
+
+# Force HTTPS (keep your existing rules)
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+# Sitemap - update to point to your new PHP file location
+RewriteRule ^sitemap.xml$ /sitemap.php [L]
+
+# Redirect trailing slashes (simplified)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# Serve existing files and directories directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Main front controller pattern - everything goes through index.php
+RewriteRule ^(.*)$ /index.php [L,QSA]
+
+# ========== ERROR DOCUMENTS ==========
+# Update these to point to your new pages directory
+ErrorDocument 404 /pages/404.php
+ErrorDocument 500 /pages/500.php

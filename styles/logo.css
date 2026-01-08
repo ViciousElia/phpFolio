@@ -1,0 +1,36 @@
+.logo a,a:hover,a:visited {
+    color: var(--theme-light)
+}
+header .logo {
+  margin: 0 0.5rem;
+}
+.logo img {
+  height: 100%;
+}
+header .logo a {
+  height:2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: anchor-center;
+}
+header .logo div {
+  display: none;
+}
+header .logo div br {
+  display:none;
+}
+
+footer .logo a {
+  height:4rem;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: anchor-center;
+}
+
+@media (max-width: 768px) {
+  header .logo div {
+    display: inline-block;
+  }
+}

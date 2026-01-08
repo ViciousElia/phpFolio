@@ -1,0 +1,68 @@
+.activeTabHead {
+    grid-area : 1/auto;
+    background-color : #005a32;
+    color : #eee;
+}
+.inactiveTabHead {
+    grid-area : 1/auto;
+    background-color : #ddd;
+    color : #005a32;
+}
+.activeTab {
+    display : block;
+    width : 90%;
+    margin : 5em auto;
+}
+.inactiveTab {
+    display : none;
+}
+.tabSelectors {
+    display : grid;
+}
+.tabSelectors a {
+    font-size : 1.5em;
+    height : 2em;
+    text-align : center;
+    align-content : center;
+    border : 1px white solid;
+    cursor : pointer;
+}
+.activeTabHead:hover {
+    color : #eee;
+}
+.inactiveTabHead:hover {
+    color : #005a32;
+}
+.tabContent {
+    border : 1px white solid;
+    background-color : #eee;
+}
+.activeTab p:first-child{
+    font-size : 1.25em;
+    text-align : center;
+}
+.activeTab hr {
+    margin : 2em auto;
+}
+.tabArea {
+    border-radius : 1.5em;
+    overflow : hidden;
+    margin : auto;
+}
+
+@media (prefers-color-scheme: dark){
+    .inactiveTabHead {
+        background-color : #333;
+        color : #00b464;
+    }
+    .tabSelectors a {
+        border : 1px #444 solid;
+    }
+    .tabContent {
+        border : 1px #444 solid;
+        background-color : #555;
+    }
+    .inactiveTabHead:hover {
+        color : #00b464;
+    }
+}

@@ -1,0 +1,19 @@
+.code-group{
+    margin : auto;
+    margin-bottom : 2rem;
+    display: block;
+    & pre {
+        background-color : #bbb;
+        color : #000;
+        margin : auto;
+        overflow-x: auto;
+        max-width: 75%;
+    }
+}
+
+@media (max-width:768px){
+    .code-group pre {
+        font-size: small;
+        max-width: calc(100vw - 6rem);
+    }
+}
