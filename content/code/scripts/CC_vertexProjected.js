@@ -28,6 +28,7 @@
  *                 vertex in the visual space. updated in project() method    *
  *                                                                            *
  * DEPENDS --- CC_vertex.js                                                   *
+ *             CC_position.js                                                 *
  *                                                                            *
  * AUTHOR ---- Terra Hyde, FruitFolio.com                                     *
  *                                                                            *
@@ -36,6 +37,13 @@
 import { Vertex } from "./CC_vertex";
 import { Position } from "./CC_position";
 
+/**
+ * Represents a vertex in 3-dimensional projective space
+ * @class
+ * @note The projection math requires a finite, positive z coordinate. Do not pass z ≤ 0 or non-finite values; call VertexProjected.setProjection(...) before using project()/draw().
+ * @example
+ * const p = new VertexProjected(1, 2, 3); // 3D vertex
+ */
 export class VertexProjected extends Vertex {
     static PROJECTION_CENTER_X;
     static PROJECTION_CENTER_Y;
@@ -61,7 +69,7 @@ export class VertexProjected extends Vertex {
     }
     project() {
         this._checkProjectionInitialized();
-        this.scaleProjected = this.PERSPECTIVE / (this.PERSPECTIVE + this.position.z);
+        this.scaleProjected = this.constructor.PERSPECTIVE / (this.constructor.PERSPECTIVE + this.position.z);
         this.positionProjected.x = (this.position.x * this.scaleProjected) + this.PROJECTION_CENTER_X;
         this.positionProjected.y = (this.position.y * this.scaleProjected) + this.PROJECTION_CENTER_Y;
     }
@@ -73,10 +81,11 @@ export class VertexProjected extends Vertex {
     draw(ctx) {
         this._checkProjectionInitialized();
         this.project();
-        ctx.globalAlpha = Math.abs(1 - this.z / (this.constructor.PROJECTION_CENTER_X * 2));
+        const prevAlpha = ctx.globalAlpha;
+        ctx.globalAlpha = Math.abs(1 - this.position.z / (this.constructor.PROJECTION_CENTER_X * 2));
         ctx.beginPath();
         ctx.arc(this.positionProjected.x,this.positionProjected.y,this.size*this.scaleProjected,0,2*Math.PI);
         ctx.fill();
-        ctx.globalAlpha = 1;
+        ctx.globalAlpha = prevAlpha;
     }
 }

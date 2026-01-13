@@ -183,10 +183,8 @@ export class Position {
      */
     scale(scalar){
         if (typeof scalar !== 'number') throw new Error("Cannot multiply by non-number!");
-        this.coordinates = this.coordinates.map(
-            (coord) => coord * scalar
-        );
-        this.modulus *= scalar;
+        this.coordinates = this.coordinates.map( (coord) => coord * scalar );
+        this.modulus *= this.#modulate();
     }
     /**
      * Normalizes position
@@ -226,13 +224,14 @@ export class Position {
      * @throws {Error} If positions are not in 3 dimensions
      */
     cross(position) {
+        if (!(position instanceof Position)) throw new Error("Cannot multiply positions and non-positions!");
         if (this.dimension !== 3 || position.dimension !== 3) throw new Error("Cross product only defined for 3D vectors");
         // Implementation...
-        return new Position([
-            this.y*position.z - position.z*this.y,
-            this.z*position.x - position.x*this.z,
+        return new Position(
+            this.y*position.z - position.y*this.z,
+            this.z*position.x - position.z*this.x,
             this.x*position.y - position.x*this.y
-        ]);
+        );
     }
     /**
      * Calculates the modulus (Euclidean distance from origin)
