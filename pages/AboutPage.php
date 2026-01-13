@@ -128,6 +128,34 @@ ob_start();
                             <p>Katie's cat. A crotchety old man, and that is honestly his most endearing quality.</p>
                         </div>
                     </div>
+                    <div class="pet">
+                        <img src="/public/rasters/beansMyne.jpg" alt="Tuxy cat named Beans sitting on a duvet" loading="lazy">
+                        <div class="pet-info">
+                            <h4>Beans</h4>
+                            <p>Our shared cat Myne, who is also called Beans. A bit skittish, but she loves Zeus.</p>
+                        </div>
+                    </div>
+                    <div class="pet">
+                        <img src="/public/rasters/peanut.jpg" alt="Hognose snake named Peanut resting on a person's arm" loading="lazy">
+                        <div class="pet-info">
+                            <h4>Peanut</h4>
+                            <p>Katie's hognose. A slightly spicy noodle. Kind of a chunky girl.</p>
+                        </div>
+                    </div>
+                    <div class="pet">
+                        <img src="/public/rasters/nessie.jpg" alt="Corn snake named Nessie poking her head out of a hollow log" loading="lazy">
+                        <div class="pet-info">
+                            <h4>Nessie</h4>
+                            <p>Katie's corn snake. A sweetheart and a long gorl. She is a treat to be around.</p>
+                        </div>
+                    </div>
+                    <div class="pet">
+                        <img src="/public/rasters/eggCrab.jpg" alt="Hermit crab named Egg climbing on a log in her enclosure" loading="lazy">
+                        <div class="pet-info">
+                            <h4>Egg</h4>
+                            <p>Katie's hermit crab. The sole survivor of a bigger community. She's adorable and fairly self-sufficient.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

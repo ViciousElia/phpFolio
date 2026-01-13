@@ -2,7 +2,7 @@
  *                                                                            *
  * VERSION --- v1.0 Graphy3D Release Version                                  *
  * CLASS ----- 3D Vertices using the projective plane for display             *
- * USAGE ----- Include CC_vertexProjected.js as a deferred script. Instance   *
+ * USAGE ----- Include CC_vertexProjected.js as a module script. Instance     *
  *             variable as VertexProjected(position,size). Use an object with *
  *             x, y, and z elements for the position. No support is included  *
  *             for doing physics on the vertices. If that's needed, extend    *
@@ -33,7 +33,10 @@
  *                                                                            *
  ******************************************************************************/
 
-class VertexProjected extends Vertex {
+import { Vertex } from "./CC_vertex";
+import { Position } from "./CC_position";
+
+export class VertexProjected extends Vertex {
     static PROJECTION_CENTER_X;
     static PROJECTION_CENTER_Y;
     static PERSPECTIVE;
@@ -43,25 +46,34 @@ class VertexProjected extends Vertex {
         this.PROJECTION_CENTER_X = width / 2; // x center of the canvas
         this.PROJECTION_CENTER_Y = height / 2; // y center of the canvas
     }
+    _checkProjectionInitialized() {
+        if (!this.constructor.PERSPECTIVE) {
+            throw new Error("Projection not initialized. Call VertexProjected.setProjection() first.");
+        }
+    }
 
     constructor(position,size=0) {
-        this.position = position;
-        this.size = size;
-        this.positionProjected = {"x":0,"y":0};
+        if (!(position instanceof Position)) throw new Error("Parameter `position` must be of type Position.");
+        if (position.dimension!==3) throw new Error("Position must be in 3 dimensions!")
+        super(position,size);
+        this.positionProjected = new Position(0,0);
         this.scaleProjected = 0;
     }
     project() {
+        this._checkProjectionInitialized();
         this.scaleProjected = this.PERSPECTIVE / (this.PERSPECTIVE + this.position.z);
         this.positionProjected.x = (this.position.x * this.scaleProjected) + this.PROJECTION_CENTER_X;
         this.positionProjected.y = (this.position.y * this.scaleProjected) + this.PROJECTION_CENTER_Y;
     }
     backProject(){
+        this._checkProjectionInitialized();
         this.position.x = (this.positionProjected.x - this.PROJECTION_CENTER_X)/this.scaleProjected;
         this.position.y = (this.positionProjected.y - this.PROJECTION_CENTER_Y)/this.scaleProjected;
     }
     draw(ctx) {
+        this._checkProjectionInitialized();
         this.project();
-        ctx.globalAlpha = Math.abs(1 - this.z / gWidth);
+        ctx.globalAlpha = Math.abs(1 - this.z / (this.constructor.PROJECTION_CENTER_X * 2));
         ctx.beginPath();
         ctx.arc(this.positionProjected.x,this.positionProjected.y,this.size*this.scaleProjected,0,2*Math.PI);
         ctx.fill();
