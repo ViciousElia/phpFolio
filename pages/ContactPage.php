@@ -5,8 +5,8 @@ $bodyData = "";
 // Build the head
 ob_start();
 ?>
-<title>Contact Terra Hyde | Fruit Folio</title>
-<meta name="description" content="Get in touch with Terra Hyde for writing inquiries, collaboration, or just to say hello. Response within 3-5 business days." />
+<title>Contact Terra Macdonald | Fruit Folio</title>
+<meta name="description" content="Get in touch with Terra Macdonald for writing inquiries, collaboration, or just to say hello. Response within 3-5 business days." />
 <link rel="stylesheet" href="/styles/contact.css">
 <?php
 $headData = ob_get_clean();

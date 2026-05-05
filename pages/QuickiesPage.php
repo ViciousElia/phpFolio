@@ -4,7 +4,7 @@ $bodyData = "";
 require_once 'lib/Spyc.php';
 
 $pageTitle = 'Quickies';
-$pageDescription = 'Effectively a blog, but more accurately a repository of short stories by Terra Hyde. Some true, some fiction, some poetic.';
+$pageDescription = 'Effectively a blog, but more accurately a repository of short stories by Terra Macdonald. Some true, some fiction, some poetic.';
 
 // Get filter and pagination from query string
 $tagFilter = $_GET['tag'] ?? null;

@@ -20,7 +20,7 @@
  * VARIABLES - rand:     random number generator to be set by newSeed and     *
  *                       called with rand() in the tool that uses the module. *
  *                                                                            *
- * AUTHOR ---- Terra Hyde, FruitFolio.com                                     *
+ * AUTHOR ---- Terra Macdonald, FruitFolio.com                                     *
  *                                                                            *
  ******************************************************************************/
 

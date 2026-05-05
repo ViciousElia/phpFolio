@@ -36,7 +36,7 @@
  *                                                                            *
  * DEPENDS --- [none]                                                         *
  *                                                                            *
- * AUTHOR ---- Terra Hyde, FruitFolio.com                                     *
+ * AUTHOR ---- Terra Macdonald, FruitFolio.com                                     *
  *                                                                            *
  ******************************************************************************/
 

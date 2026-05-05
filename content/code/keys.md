@@ -1,6 +1,6 @@
 ---
 name: Synth Piano
-description: A tool for exploring various waveforms (approximated with Fourier Analysis) and various musical temperaments, presented as a single octave on a keyboard. Code by Terra Hyde.
+description: A tool for exploring various waveforms (approximated with Fourier Analysis) and various musical temperaments, presented as a single octave on a keyboard. Code by Terra Macdonald.
 summary: A tool for exploring various waveforms (approximated with Fourier Analysis) and various musical temperaments, presented as a single octave on a keyboard.
 img: "/content/code/images/12keys.png"
 icon: "/content/code/images/12keysSmol.png"

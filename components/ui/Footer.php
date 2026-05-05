@@ -22,7 +22,7 @@ class Footer extends BaseComponent {
                 </div>
             <hr />
             <div class="foot-claim"><p>Coded happily in PHP and SQL, but unhappily in JS, HTML, and CSS. All from a small office in Colorado.</p></div>
-            <div class="foot-copy"><p>Copyright &copy; Terra Hyde 2024 - $year</p></div>
+            <div class="foot-copy"><p>Copyright &copy; Terra Macdonald 2024 - $year</p></div>
             </footer>
         HTML;
     }

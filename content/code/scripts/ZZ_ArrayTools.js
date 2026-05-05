@@ -9,7 +9,7 @@
  *                                                                            *
  * VARIABLES - None so far.                                                   *
  *                                                                            *
- * AUTHOR ---- Terra Hyde, FruitFolio.com                                     *
+ * AUTHOR ---- Terra Macdonald, FruitFolio.com                                     *
  *                                                                            *
  ******************************************************************************/
 

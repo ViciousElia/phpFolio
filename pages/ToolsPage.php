@@ -4,7 +4,7 @@ $bodyData = "";
 require_once 'lib/Spyc.php';
 
 $pageTitle = 'Code Tools';
-$pageDescription = 'Useful and useless code tools and utilities built by Terra Hyde. What do they do? A little bit of everything.';
+$pageDescription = 'Useful and useless code tools and utilities built by Terra Macdonald. What do they do? A little bit of everything.';
 
 // Get filter and pagination from query string
 $page = isset($_GET['page']) ? max(0, (int)$_GET['page']) : 0;

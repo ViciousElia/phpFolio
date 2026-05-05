@@ -5,8 +5,8 @@ $bodyData = "";
 // Build the head
 ob_start();
 ?>
-<title>Publications | Books by Terra Hyde | Fruit Folio</title>
-<meta name="description" content="Published works by Terra Hyde including Rambling to an Empty Room, Assorted (miss)Adventures, and Ember of Hope. Available on Amazon." />
+<title>Publications | Books by Terra Macdonald | Fruit Folio</title>
+<meta name="description" content="Published works by Terra Macdonald including Rambling to an Empty Room, Assorted (miss)Adventures, and Ember of Hope. Available on Amazon." />
 <link rel="stylesheet" href="/styles/publications.css">
 <?php
 $headData = ob_get_clean();
@@ -19,7 +19,7 @@ ob_start();
     <!-- Hero/Intro Section -->
     <section class="publications-hero">
         <h1>Publications</h1>
-        <p class="subtitle">Books and other projects by Terra Hyde</p>
+        <p class="subtitle">Books and other projects by Terra Macdonald</p>
         
         <div class="intro-text">
             <p>Writing is a passion of mine. The ability to share stories and knowledge is one of the cornerstones of human experience, and I'm proud to be a part of that at every opportunity. While some of my work is rough and not as polished, I'm always keen to share what I'm up to.</p>

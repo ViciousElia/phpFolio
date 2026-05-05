@@ -50,7 +50,7 @@ if (isset($pageId)) {
     "@type" : "ShortStory",
     "author" : {
         "@type": "Person",
-        "name": "Terra Hyde"
+        "name": "Terra Macdonald"
     },
     "datePublished" : "<?=$pageInfo['date']?>",
     "description" : "<?=$pageInfo['description']?>",

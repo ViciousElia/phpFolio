@@ -15,8 +15,8 @@ if (!empty($allQuickies)) $latestQuickie = $allQuickies[0];
 
 ob_start();
 ?>
-<title>Fruit Folio by Terra Hyde</title>
-<meta name="description" content="Writing, thoughts, and occasional code from Terra Hyde. Short stories, technical documentation, and professional writing samples." />
+<title>Fruit Folio by Terra Macdonald</title>
+<meta name="description" content="Writing, thoughts, and occasional code from Terra Macdonald. Short stories, technical documentation, and professional writing samples." />
 <link rel="stylesheet" href="/styles/home.css">
 <?php
 $headData = ob_get_clean();
@@ -29,10 +29,10 @@ ob_start();
     <section class="hero">
         <div class="hero-content">
             <div class="hero-image">
-                <img src="/public/rasters/Terra_Dress_Up.jpg" alt="Terra Hyde" loading="lazy">
+                <img src="/public/rasters/Terra_Dress_Up.jpg" alt="Terra Macdonald" loading="lazy">
             </div>
             <div class="hero-text">
-                <h1>Terra Hyde</h1>
+                <h1>Terra Macdonald</h1>
                 <p class="tagline">Writer, developer, and occasional human being.</p>
                 <p class="intro">Think of this website as a digital portfolio and a place where you can read the weird stuff I write. Honestly, if you're here, you probably already know me. So you know I write a lot. Some of the shorter things end up here. Some of the better things end up in my books.</p>
             </div>

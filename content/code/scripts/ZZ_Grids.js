@@ -17,7 +17,7 @@
  * VARIABLES - gridStyles: style string used to recall the style of the grid  *
  *                 when turning visibility on and off                         *
  *                                                                            *
- * AUTHOR ---- Terra Hyde, FruitFolio.com                                     *
+ * AUTHOR ---- Terra Macdonald, FruitFolio.com                                     *
  *                                                                            *
  ******************************************************************************/
 

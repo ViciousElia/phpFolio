@@ -1,6 +1,6 @@
 ---
 name: Island Generator
-description: A tool for generating a randomised island using the Diamond-Square algorithm. Code by Terra Hyde.
+description: A tool for generating a randomised island using the Diamond-Square algorithm. Code by Terra Macdonald.
 img: "/content/code/images/1337smooth.png"
 icon: "/content/code/images/smoothIslandGen.png"
 supporting_scripts: ['/content/code/scripts/islandGen.js','/content/code/scripts/island_late_load.js']

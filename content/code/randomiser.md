@@ -1,6 +1,6 @@
 ---
 name: Character Randomiser
-description: A tool to generate a fantasy character. Conceptualised by Wes Goodhue and implemented by Terra Hyde.
+description: A tool to generate a fantasy character. Conceptualised by Wes Goodhue and implemented by Terra Macdonald.
 img: "/content/code/images/dice.svg"
 icon: "/content/code/images/dice.svg"
 supporting_scripts: ['/content/code/scripts/randomiser.js']

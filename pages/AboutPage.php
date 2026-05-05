@@ -5,8 +5,8 @@ $bodyData = "";
 // Build the head
 ob_start();
 ?>
-<title>About Terra Hyde | Fruit Folio</title>
-<meta name="description" content="Terra Hyde: writer, developer, mathematician, and sapphic trans woman from Texas now living in Colorado with her family." />
+<title>About Terra Macdonald | Fruit Folio</title>
+<meta name="description" content="Terra Macdonald: writer, developer, mathematician, and sapphic trans woman from Texas now living in Colorado with her family." />
 <link rel="stylesheet" href="/styles/about.css">
 <?php
 $headData = ob_get_clean();
@@ -18,7 +18,7 @@ ob_start();
     
     <!-- Hero/Intro Section -->
     <section class="about-hero">
-        <h1>Terra Hyde</h1>
+        <h1>Terra Macdonald</h1>
         <p class="subtitle">Writer, developer, mathematician, and occasional tree-climber</p>
         
         <div class="intro-text">
@@ -63,7 +63,7 @@ ob_start();
                 <p>I am self taught in several different coding languages (including the various languages I used to build this site), but I also took the opportunity to learn many more coding, scripting, and typesetting languages in university.</p>
                 <p>I studied mathematics with a focus in applied mathematics and physics. This allowed me to learn C/C++/Objective C, Java, Python, R, MATLAB, Mathematica, LaTeX and PostScript by the time I got my Master of Science in Mathematics.</p>
                 <p>I have a passion for education and social awareness, so I use every opportunity I have to help people learn what they need to know about everything I can tell them.</p>
-                <p class="resume-link"><a href="/public/samples/TerraHydeCompleteResume.pdf">📄 View my complete resume (PDF)</a></p>
+                <p class="resume-link"><a href="/public/samples/TerraMacdonaldCompleteResume.pdf">📄 View my complete resume (PDF)</a></p>
             </div>
         </div>
     </section>
@@ -81,7 +81,7 @@ ob_start();
             
             <div class="family-grid">
                 <div class="family-member">
-                    <img src="/public/rasters/terraFruit.jpg" alt="Terra Hyde in a tree wearing blue jeans, red tank top, and green boots" loading="lazy">
+                    <img src="/public/rasters/terraFruit.jpg" alt="Terra Macdonald in a tree wearing blue jeans, red tank top, and green boots" loading="lazy">
                     <div class="member-info">
                         <h4>Terra</h4>
                         <p>Like I said. I spent a lot of time exploring as a kid. Even today I still climb trees, big rocks, and whatever else I can find a way to scale!</p>

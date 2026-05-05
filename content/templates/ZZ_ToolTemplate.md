@@ -1,6 +1,6 @@
 ---
 name: title
-description: description. Code by Terra Hyde.
+description: description. Code by Terra Macdonald.
 img: "/content/code/images/image.png"
 icon: "/content/code/images/image.png"
 supporting_scripts: ['/content/code/scripts/script.js','/content/code/scripts/script_late_load.js']

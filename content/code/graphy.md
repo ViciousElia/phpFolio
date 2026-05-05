@@ -1,6 +1,6 @@
 ---
 name: Graph Optimiser
-description: A tool for optimising graphs under constraints of separation and connectedness. Code by Terra Hyde.
+description: A tool for optimising graphs under constraints of separation and connectedness. Code by Terra Macdonald.
 summary: A tool for optimising graphs under constraints of separation and connectedness.
 img: "/content/code/images/26Random.png"
 icon: "/content/code/images/26RandomSmol.png"

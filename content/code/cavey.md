@@ -1,6 +1,6 @@
 ---
 name: Cave Generator
-description: A tool for generating a randomised cave using the Togetherness algorithm. Code by Terra Hyde.
+description: A tool for generating a randomised cave using the Togetherness algorithm. Code by Terra Macdonald.
 img: "/content/code/images/1337Cave.png"
 icon: "/content/code/images/1337CaveSmall.png"
 supporting_scripts: ['/content/code/scripts/together.js','/content/code/scripts/cavey_late_load.js']

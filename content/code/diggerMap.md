@@ -1,6 +1,6 @@
 ---
 name: Digger Dungeon
-description: A tool for generating a randomised dungeon map using a digging algorithm. Code and algorithm by Terra Hyde.
+description: A tool for generating a randomised dungeon map using a digging algorithm. Code and algorithm by Terra Macdonald.
 img: "/content/code/images/diggerMap.png"
 icon: "/content/code/images/diggerMapSmol.png"
 supporting_scripts: ['/content/code/scripts/diggerMap.js','/content/code/scripts/diggerMap_late_load.js']

@@ -30,7 +30,7 @@
  * DEPENDS --- CC_vertex.js                                                   *
  *             CC_position.js                                                 *
  *                                                                            *
- * AUTHOR ---- Terra Hyde, FruitFolio.com                                     *
+ * AUTHOR ---- Terra Macdonald, FruitFolio.com                                     *
  *                                                                            *
  ******************************************************************************/
 
