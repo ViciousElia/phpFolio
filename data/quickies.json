@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-01-06 23:34:42",
-    "count": 35,
+    "last_updated": "2026-01-25 20:03:58",
+    "count": 36,
     "quickies": {
         "2013-07-29": {
             "id": "2013-07-29",
@@ -265,7 +265,7 @@
             "title": "Peanut Butter Silliness",
             "summary": "A short story about how much Katie loves me, how much I love peanut butter, and how those two things affect each other.",
             "file_path": "content\/quickies\/2023-05-09.md",
-            "last_modified": 1766416641,
+            "last_modified": 1769371425,
             "tags": [
                 "peanut-butter",
                 "moving-states",
@@ -523,7 +523,7 @@
             "title": "Twilit Fantasy",
             "summary": "A love poem about the feeling of safety in the failing light when you're with the one you love.",
             "file_path": "content\/quickies\/2024-10-10.md",
-            "last_modified": 1765581564,
+            "last_modified": 1769371003,
             "tags": [
                 "love",
                 "joy",
@@ -536,10 +536,26 @@
             "title": "Food (a little too deep)",
             "summary": "A ... thing ... that I think about sometimes. It definitely speaks to my relationship with food.",
             "file_path": "content\/quickies\/2024-12-30.md",
-            "last_modified": 1767722252,
+            "last_modified": 1767845785,
             "tags": [
                 "poem",
                 "food"
+            ]
+        },
+        "2025-12-22": {
+            "id": "2025-12-22",
+            "title": "Cutting Hairs",
+            "summary": "It's been two years since that fatefully ill-fated day when Dave tried to hit on Fran. She and Dot are settling into a comfortable life together. But something has suddenly happened.",
+            "file_path": "content\/quickies\/2025-12-22.md",
+            "last_modified": 1766498825,
+            "tags": [
+                "fran",
+                "fiction",
+                "queer",
+                "dot",
+                "sapphic",
+                "neurodivergent",
+                "dissociation"
             ]
         }
     }
