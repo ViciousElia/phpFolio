@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-01-25 20:03:58",
-    "count": 36,
+    "last_updated": "2026-05-22 16:27:19",
+    "count": 40,
     "quickies": {
         "2013-07-29": {
             "id": "2013-07-29",
@@ -500,7 +500,7 @@
             "title": "Cows. Just Cows.",
             "summary": "In which I relate a formative anecdote from my youth that deeply enhanced my respect for nature.",
             "file_path": "content\/quickies\/2024-09-11.md",
-            "last_modified": 1766421047,
+            "last_modified": 1778008740,
             "tags": [
                 "country-kid",
                 "tomas",
@@ -556,6 +556,58 @@
                 "sapphic",
                 "neurodivergent",
                 "dissociation"
+            ]
+        },
+        "2025-12-23": {
+            "id": "2025-12-23",
+            "title": "Pleasantly Pleased, In spite",
+            "summary": "A short little look at joy in the face of life's big struggles.",
+            "file_path": "content\/quickies\/2025-12-23.md",
+            "last_modified": 1771307754,
+            "tags": [
+                "flash-fiction",
+                "neurodivergent",
+                "dissociation"
+            ]
+        },
+        "2025-12-26": {
+            "id": "2025-12-26",
+            "title": "Sapphic Blur",
+            "summary": "A lovely vignette of attraction and the who and why of love. Not quite to the point of satisfaction.",
+            "file_path": "content\/quickies\/2025-12-26.md",
+            "last_modified": 1771307754,
+            "tags": [
+                "flash-fiction",
+                "queer",
+                "sapphic"
+            ]
+        },
+        "2026-01-14": {
+            "id": "2026-01-14",
+            "title": "Move-in Edition",
+            "summary": "Fran and Dot have been living together unofficially for a while. Now's the time to finally jump in the deep end of shared domesticity.",
+            "file_path": "content\/quickies\/2026-01-14.md",
+            "last_modified": 1771307754,
+            "tags": [
+                "fran",
+                "dot",
+                "neurodivergent",
+                "sapphic",
+                "queer",
+                "fiction"
+            ]
+        },
+        "2026-02-14": {
+            "id": "2026-02-14",
+            "title": "Synergistics!",
+            "summary": "Even when things reach their most soul crushing, there's hope. Fran realises in the heat of the moment: she doesn't want to be here anymore.",
+            "file_path": "content\/quickies\/2026-02-14.md",
+            "last_modified": 1771307754,
+            "tags": [
+                "fran",
+                "neurodivergent",
+                "fiction",
+                "corporate-hell"
             ]
         }
     }

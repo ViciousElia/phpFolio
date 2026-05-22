@@ -24,6 +24,24 @@ if ($page=='sitemap.php') return;
     <?=$headData ?? ''?>
     <link rel="icon" type="image/x-icon" href="/public/favicon.svg">
     <link rel="stylesheet" href="/styles/ko-fi.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            fetch('/lib/TrafficTracker.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    page: window.location.pathname,
+                    screen: screen.width + 'x' + screen.height,
+                    referrer: document.referrer,
+                    browser: {
+                        vendor: navigator.vendor,
+                        platform: navigator.platform,
+                        language: navigator.language,
+                    }
+                })
+            }).catch(e => console.log('Failed', e));
+        })
+    </script>
 </head>
 <body>
 <?= Components\Header::render(['currentPath'=>$currentPath]);?>

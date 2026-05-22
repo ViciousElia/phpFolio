@@ -68,6 +68,7 @@ ob_start();
         {Title: "Refrain of Terror",          Date: "coming soon", Series: "Taming the Sea",                    Entry: "2", PDF: "[not available]",                                              EPUB: "[not available]"}, 
         {Title: "Quills, Kisses, and Curios", Date: "coming soon", Series: "Pages and Paramours",               Entry: "2", PDF: "[not available]",                                              EPUB: "[not available]"}, 
         {Title: "Seasons and Sweethearts",    Date: "coming soon", Series: "Pages and Paramours",               Entry: "3", PDF: "[not available]",                                              EPUB: "[not available]"}, 
+        {Title: "Refactored Devotion",        Date: "coming soon", Series: "Pages and Paramours",               Entry: "4", PDF: "[not available]",                                              EPUB: "[not available]"}, 
         {Title: "Deithe Tal Region Guide",    Date: "coming soon", Series: "The Multiverse According to Dot",   Entry: "1", PDF: "[not available]",                                              EPUB: "[not available]"}, 
         {Title: "Lafleur World Guide",        Date: "coming soon", Series: "The Multiverse According to Dot",   Entry: "2", PDF: "[not available]",                                              EPUB: "[not available]"}, 
         {Title: "Portstown City Guide",       Date: "coming soon", Series: "The Multiverse According to Dot",   Entry: "3", PDF: "[not available]",                                              EPUB: "[not available]"}, 
